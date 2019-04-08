@@ -1,0 +1,657 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+html body{
+    font-family: "微软雅黑",Arial;
+    background-color: #f1f2f7;
+    height: 100%;
+}
+ ul,ol{
+     list-style:none;
+ }
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+/*头部*/
+.cephalosome{
+    background: white;
+    width: 100%;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.cepha{
+    width: 408px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.loso{
+    display: flex;
+    align-items: center;
+}
+.loso p{
+    font-size: 12px;
+    color: #2a373f;
+}
+.loso b{
+    font-size: 12px;
+    color: #ff5a80;
+    font-weight: 100;
+}
+.cep{
+    font-size: 14px;
+    color: #797979;
+}
+.icon span{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    border:1px solid #f1f0f5;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 37px;
+}
+.some{
+    display: flex;
+    align-items: center;
+    width: 225px;
+    justify-content: space-around;
+}
+.sousuo{
+    font-size: 36px;
+    color: #d5d5d5;
+}
+.imgbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 54px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+.imgbox b{
+    font-size: 12px;
+    color: #3d4d5c;
+    font-weight: 100;
+}
+/*内容*/
+.details{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+/*左边*/
+.the_left{
+    width: 180px;
+    height: 100%;
+    background: #2b3541;
+    position: fixed;
+    top: 59px;
+    left: 0px;
+}
+.note{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.note b{
+    font-weight: 100;
+    color: #8b97a3;
+    font-size: 12px;
+}
+.you{
+    width: 110px;
+    display: flex;
+    align-items: center;
+}
+.you .youbiao{
+    font-size: 20px;
+    color: #8f969e;
+}
+/*右边*/
+.the_right{
+    width: 87%;
+    display: flex;
+    margin-top: 79px;
+    margin-left: 200px;
+    /*overflow:hidden;*/
+}
+/*右边第一列*/
+.bigbox{
+    width: 49%;
+}
+.column{
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.tunt{
+    width: 100%;
+    height: 134px;
+}
+.pbox{
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.pbox p{
+    font-size: 12px;
+    color: #696969;
+    line-height: 52px;
+    margin-left: 10px;
+}
+.abox{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.abox a{
+    display: inline-block;
+    width:15%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.aboxo{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.aboxo a{
+    display: inline-block;
+    width:100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.unon{
+    vertical-align: middle;
+}
+.cboxo{
+    width: 123px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px
+}
+.cboxo a{
+    display: inline-block;
+    width: 88px;
+    height: 42px;
+    color:#300400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 42px;
+    border-right: 1px solid #e1e1e1;
+    /*border: 1px solid #e1e1e1;*/
+    /*border-radius: 5px;*/
+}
+.cboxo span{
+    width:33px ;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+}
+.bboxo{
+    width: 123px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+.bboxo a{
+    display: inline-block;
+    width: 88px;
+    height: 42px;
+    color:#300400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 42px;
+    border-right: 1px solid #e1e1e1;
+    /*border: 1px solid #e1e1e1;*/
+    /*border-radius: 5px;*/
+}
+.bboxo span{
+    width:33px ;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+}
+.tount{
+    width: 100%;
+    height: 230px;
+}
+.uboxo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.uboxo a:first-child{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
+     height: 56px;
+     border-radius: 5px;
+     background: #a9d96c;
+    margin-top: 20px;
+    color: #e3ffd6;
+    font-size: 12px;
+ }
+.uboxo a:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 42px;
+    border-radius: 5px;
+    background: #f1c500;
+    margin: 5px 0px;
+    color: #e3ffd6;
+    font-size: 9px;
+}
+.uboxo a:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 27px;
+    border-radius: 5px;
+    background: #ff6d60;
+    color: #e3ffd6;
+    font-size: 6px;
+}
+/*右边第二列*/
+.right_box{
+    width: 49%;
+    margin-left: 37px;
+}
+.oboxo{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.oboxo a:first-child{
+    display: inline-block;
+    width:20%;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 5px;
+    color: #fff;
+    background: #bec3c7;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.oboxo a:nth-child(2){
+    display: inline-block;
+    width:20%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    color: #fff;
+    background: #42c9c3;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.oboxo a:nth-child(3){
+    display: inline-block;
+    width:20%;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 5px;
+    color: #fff;
+    background: #7dcb53;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.oboxo a:last-child{
+    display: inline-block;
+    width:20%;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 5px;
+    color: #fff;
+    background: #59bdef;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.pboxo{
+  margin-top: 10px;
+    margin-left: 10px;
+}
+.pboxo a:first-child{
+    display: inline-block;
+    width: 16%;
+    height: 43px;
+    background: #35c9b9;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: middle;
+}
+.pboxo img{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+.pboxo a:nth-child(2){
+    display: inline-block;
+    width: 16%;
+    height: 43px;
+    background: #81c852;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: middle;
+}
+.pboxo a:nth-child(3){
+     display: inline-block;
+     width: 16%;
+     height: 43px;
+     background: #5ec3ef;
+     border-radius: 5px;
+     text-align: center;
+     line-height: 43px;
+     font-size: 12px;
+     color: #fff;
+     vertical-align: middle;
+ }
+.pboxo a:nth-child(4){
+    display: inline-block;
+    width: 16%;
+    height: 43px;
+    background: #bdc7c9;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 12px;
+    color: #fff;
+    vertical-align: middle;
+}
+.pboxo a:nth-child(5){
+    display: inline-block;
+    width: 10%;
+    height: 43px;
+    /*background: #bdc7c9;*/
+    border-radius: 5px;
+    text-align: center;
+    line-height: 43px;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+}
+.pboxo a:last-child{
+    display: inline-block;
+    width: 7%;
+    height: 43px;
+    /*background: #bdc7c9;*/
+    border-radius: 5px;
+    text-align: center;
+    line-height: 43px;
+    border: 1px solid #dfdfdf;
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+}
+.tcnt{
+    width: 100%;
+    height: 622px;
+}
+.diyige{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.diyige .yige{
+    width: 224px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+}
+.yige a{
+    display: inline-block;
+    width: 70px;
+    height: 42px;
+    color: #070000;
+    font-size: 8px;
+    text-align: center;
+    line-height: 42px;
+    border-right: 1px solid #dfdfdf;
+}
+.diyige .erge{
+    width: 190px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    margin-left: 5px;
+}
+.erge a{
+    display: inline-block;
+    width: 59px;
+    height: 37px;
+    color: #070000;
+    font-size: 8px;
+    text-align: center;
+    line-height: 37px;
+    border-right: 1px solid #dfdfdf;
+}
+.dierge .kbox p{
+    font-size: 14px;
+    color: #696969;
+    margin: 10px 0px 10px 10px;
+}
+.hubox{
+    width: 92px;
+    height: 124px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.kbox .hubox a{
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    color: #070000;
+    font-size: 8px;
+    text-align: center;
+    line-height: 37px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.disange .kbox p{
+    font-size: 14px;
+    color: #696969;
+    margin: 10px 0px 10px 10px;
+}
+.gobox{
+    width: 258px;
+    height: 43px;
+    background: #bcc3c9;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.gobox a{
+    display: inline-block;
+    width: 41px;
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+.unru{
+    vertical-align: middle;
+}
+.gobox a:hover{
+    background: #f27654;
+}
+.disige .kbox p{
+    font-size: 14px;
+    color: #696969;
+    margin: 10px 0px 10px 10px;
+}
+.tobox{
+    display: inline-block;
+    width: 187px;
+    height: 42px;
+    background: #4bd0f1;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.tobox a{
+    display: inline-block;
+    width: 43px;
+    height: 42px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+.tobox a:hover{
+    background: #53bfe6;
+}
+.nobox{
+    display: inline-block;
+    width: 133px;
+    height: 42px;
+    background: #7acc50;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.nobox a{
+    display: inline-block;
+    width: 41px;
+    height: 42px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+.cobox{
+    display: inline-block;
+    width: 43px;
+    height: 42px;
+    background: #f7c200;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.cobox a{
+    display: inline-block;
+    width: 41px;
+    height: 42px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+
+.diwuge .kbox p{
+     font-size: 14px;
+     color: #696969;
+    margin: 10px 0px 10px 10px;
+ }
+.mobox{
+    display: inline-block;
+    width: 307px;
+    height: 42px;
+    background: #40afa9;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.mobox a{
+    display: inline-block;
+    width: 99px;
+    height: 42px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+.diliuge .kbox p{
+    font-size: 14px;
+    color: #696969;
+    margin: 10px 0px 10px 10px;
+}
+.uobox{
+    display: inline-block;
+    width: 307px;
+    height: 42px;
+    background: #bec3c7;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.uobox a{
+    display: inline-block;
+    width: 99px;
+    height: 42px;
+    text-align: center;
+    line-height: 43px;
+    color: #f4f9fd;
+    font-size: 12px;
+}
+.uobox a:hover{
+    background: #b0b5b9;
+}
+@media screen and (max-width: 760px){
+   .the_left{
+       display: none;
+   }
+    .details{
+        flex-direction: column;
+    }
+    .the_right{
+        margin: 39px 0px 0px 0px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .bigbox{
+        width: 98%;
+        margin: 0;
+    }
+    .right_box{
+        width: 98%;
+        margin: 0px;
+    }
+}
